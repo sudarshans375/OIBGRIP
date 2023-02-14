@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Logo {
+    Max-Height: 70px;
+  }
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 30px;
+}
+
+header .logo{
+    font-size: 30px;
+    color: blue;
+
+}
+
+header nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+header nav ul li{
+    margin: 0 20px;
+}
+
+header nav ul li a{
+    font-size: 20px;
+    color: #fff;
+    transition: letter-spacing .2s;
+    background-color: maroon;
+    padding: 7px 50px;
+    border-radius: 50px;
+}
+
+header nav ul li a:hover{
+    padding: 7px 50px;
+    background-color: whitesmoke;
+    color: maroon;
+
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 40px;
+    background-color: rgb(230, 219, 230);
+
+}
+
+.container image{
+    margin-top: 200px;
+
+}
+
+.container .image img{
+    width: 600px;
+}
+.container .content{
+    margin-top: -100px;
+    padding-left: 10px;
+}
+
+.container .content h1{
+    color: rgb(2, 2, 61);
+    font-size: 80px;
+}
+
+.container .content h3{
+    color: rgb(0, 0, 32);
+    font-size: 45px;
+    font-weight: 400;
+
+}
+
+.container .content p{
+    color: navy;
+    font-size: 15px;
+    padding: 20px 0;
+
+}
+
+.container .content button{
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    background-color: navy;
+    color: plum;
+    font-size: 17px;
+    height: 40px;
+    width: 180px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.container .content button:hover{
+    opacity: .8;
+    letter-spacing: 1.5px;
+}
